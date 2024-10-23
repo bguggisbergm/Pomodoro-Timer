@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "ac0a63ff-5012-40b4-a631-0fcedccfc68b",
+		"name": "Pomodoro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12313706"
+	},
+	"item": [
+		{
+			"name": "Register  User Pomodoro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"vaikesh\",\r\n  \"password\": \"vaikesh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login User Pomodoro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"vaikesh\",\r\n  \"password\": \"vaikesh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Acceso Protegido Pomodoro",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MTkwOWIwOWU1NDM5NjFhZjQ0NzhiNyIsImlhdCI6MTcyOTY5NDQ1OSwiZXhwIjoxNzI5Njk4MDU5fQ.8RzofXZooESashrTV-l4rwrTgjz5nloJORflXR9HbMw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/pomodoro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pomodoro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
