@@ -15,7 +15,7 @@ MongoDB (Base de datos)
 JWT (Autenticación de usuarios)
 CSS (Estilos)
 
-// Carpeta POSTMAN - Muestra el funcionamiento de login de usuario (resgitro-login-ingreso)
+// Carpeta POSTMAN - Muestra el funcionamiento de login de usuario (registro-login-ingreso) y postman collection para pruebas
 // Carpeta MOCKUPS - Muestra la visualización de la web en funcionamiento
 
 Pre-requisitos
