@@ -1,0 +1,6 @@
+{
+    "semi": true,                // Habilita los puntos y comas al final de las declaraciones
+    "singleQuote": true,         // Utiliza comillas simples en lugar de dobles
+    "trailingComma": "es5"       // Añade comas finales donde sea permitido por ES5 (en objetos, arrays, etc.)
+  }
+  

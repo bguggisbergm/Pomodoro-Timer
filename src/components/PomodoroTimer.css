@@ -1,0 +1,66 @@
+.pomodoro-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* Fondo oscuro */
+  color: #f0f0f0; /* Color claro para el texto */
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+}
+
+.timer {
+  text-align: center;
+  border: 2px solid #00ff00; /* Borde verde neón */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Sombra verde brillante */
+  transition: all 0.5s ease; /* Transición suave para cambios */
+}
+
+.timer-image {
+  width: 100%; /* Imagen toma todo el ancho disponible */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilo para temporizadores activos */
+.active {
+  filter: none; /* Sin filtro, colores normales */
+  opacity: 1;
+  width: 35%;
+}
+
+/* Estilo para temporizadores inactivos con escala de grises */
+.inactive {
+  filter: grayscale(100%); /* Escala de grises */
+  opacity: 0.5;
+  width: 25%;
+}
+
+.time-display {
+  font-size: 2rem; /* Tamaño grande para el tiempo */
+  margin: 10px 0;
+}
+
+button {
+  background-color: #00ff00; /* Color de fondo verde */
+  color: #000; /* Texto en negro */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave al hacer hover */
+  font-size: 1.1rem;
+}
+
+/* Cambio de color en hover */
+button:hover {
+  background-color: #00cc00; /* Verde más oscuro */
+}
+
+/* Estilos específicos para botones */
+.start-button,
+.reset-button,
+.toggle-button {
+  width: 120px;
+}

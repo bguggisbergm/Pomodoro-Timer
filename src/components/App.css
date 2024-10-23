@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px; /* Establece un ancho máximo para el contenedor principal */
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  padding: 2rem; /* Añade un relleno de 2 rem */
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.logo {
+  height: 6em; /* Establece la altura de la imagen del logo */
+  padding: 1.5em; /* Añade relleno alrededor de la imagen */
+  will-change: filter; /* Indica que el filtro cambiará, optimizando la animación */
+  transition: filter 300ms; /* Transición suave en el filtro cuando se interactúa con la imagen */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Añade una sombra de color en hover */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Sombra específica cuando se aplica en el logo de React */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg); /* Empieza sin rotación */
+  }
+  to {
+    transform: rotate(360deg); /* Rota 360 grados */
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Aplica la animación de rotación al logo si el usuario no tiene preferencias de reducir movimientos */
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em; /* Añade relleno a los elementos de la tarjeta */
+}
+
+.read-the-docs {
+  color: #888; /* Color gris claro para los enlaces de documentación */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e; /* Fondo oscuro para el encabezado */
+  padding: 10px 20px; /* Relleno interno */
+  color: #00ff00; /* Texto verde */
+  font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+}
+
+header h2 {
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+header button {
+  background-color: #ff4d4d; /* Fondo rojo */
+  color: white; /* Texto blanco */
+  border: none; /* Sin bordes */
+  padding: 10px 15px; /* Relleno interno del botón */
+  cursor: pointer; /* Cursor de mano al hacer hover */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+header button:hover {
+  background-color: #ff1a1a; /* Cambia a un rojo más oscuro en hover */
+}
