@@ -14,6 +14,10 @@ Express.js (Backend para la autenticación)
 MongoDB (Base de datos)
 JWT (Autenticación de usuarios)
 CSS (Estilos)
+
+// Carpeta POSTMAN - Muestra el funcionamiento de login de usuario (resgitro-login-ingreso)
+// Carpeta MOCKUPS - Muestra la visualización de la web en funcionamiento
+
 Pre-requisitos
 Antes de levantar el proyecto en tu máquina local, asegúrate de tener instalados los siguientes componentes:
 
