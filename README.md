@@ -35,7 +35,7 @@ Instalación
 Sigue los siguientes pasos para clonar y configurar el proyecto en tu máquina local.
 
 1-Clonar el repositorio:
-git clone https://github.com/tu-usuario/pomodoro-timer.git
+git clone https://github.com/bguggisbergm/Pomodoro-Timer.git
 cd pomodoro-timer
 
 2-Instalar dependencias del servidor (backend):
